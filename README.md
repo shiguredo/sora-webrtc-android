@@ -4,7 +4,7 @@
 
 ## libwebrtc.aar ファイルを読み込ませる
 
-https://github.com/shiguredo/sora-webrtc-android/releases/download/60.9.1/libwebrtc.aar.zip をダウンロードして、解凍して libs フォルダ以下に追加して下さい。
+[libwebrtc.aar.zip](https://github.com/shiguredo/sora-webrtc-android/releases/download/60.9.1/libwebrtc.aar.zip) をダウンロードして、解凍して libs フォルダ以下に追加して下さい。
 
 ```
 dependencies {
