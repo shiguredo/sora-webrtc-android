@@ -4,7 +4,9 @@
 
 ## libwebrtc.aar ファイルを読み込ませる
 
-最新バージョン 60.9.1 の [libwebrtc.aar.zip](https://github.com/shiguredo/sora-webrtc-android/releases/download/60.9.1/libwebrtc.aar.zip) をダウンロードして、解凍した libwebrtc.aar ファイルを libs フォルダ以下に追加して下さい。
+最新バージョン 60.9.1 の [libwebrtc.aar.zip](https://github.com/shiguredo/sora-webrtc-android/releases/download/60.9.1/libwebrtc.aar.zip) をダウンロードして、解凍した libwebrtc.aar ファイルを libs ディレクトリ以下に置いて下さい。
+
+そして build.gradle に下記を追記して下さい。
 
 ```
 dependencies {
