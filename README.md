@@ -24,8 +24,8 @@ repositories{
 
 **動作未確認のものも含みます**
 
+
+- https://github.com/shiguredo/sora-webrtc-android/releases/download/61.5.0/sora-webrtc-61.5.0-android.zip
 - https://github.com/shiguredo/sora-webrtc-android/releases/download/61.4.0/sora-webrtc-61.4.0-android.zip
-
 - https://github.com/shiguredo/sora-webrtc-android/releases/download/60.11.0/sora-webrtc-60.11.0-android.zip
-
 - https://github.com/shiguredo/sora-webrtc-android/releases/download/60.9.1/sora-webrtc-60.9.1-android.zip
