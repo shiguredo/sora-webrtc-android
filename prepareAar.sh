@@ -5,7 +5,7 @@ set -e
 VERSION=66.8.1
 ## 最初、66.8.1 をリリース済みなので特別
 ## 67 からは VERSION と同じにする
-RELEASE_VERSION=66.8.2
+RELEASE_VERSION=66.8.1.1
 
 AAR_URL=https://github.com/shiguredo/sora-webrtc-android/releases/download/${VERSION}/libwebrtc.aar
 
