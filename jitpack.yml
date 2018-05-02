@@ -1,0 +1,7 @@
+before_install:
+   - ./prepareAAR.sh
+install:
+   - echo "Dummy a custom install command"
+   - true
+env:
+   MYVAR: "custom environment variable"
