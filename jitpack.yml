@@ -1,5 +1,5 @@
 before_install:
-   - ./prepareAAR.sh
+   - ./prepareAar.sh
 install:
    - echo "Dummy a custom install command"
    - true
