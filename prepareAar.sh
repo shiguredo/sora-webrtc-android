@@ -3,6 +3,9 @@
 set -e
 
 VERSION=66.8.1
+## 最初、66.8.1 をリリース済みなので特別
+## 67 からは VERSION と同じにする
+RELEASE_VERSION=66.8.2
 
 AAR_URL=https://github.com/shiguredo/sora-webrtc-android/releases/download/${VERSION}/libwebrtc.aar
 
@@ -15,6 +18,6 @@ curl -L -O ${AAR_URL}
 mvn install:install-file \
     -Dfile=libwebrtc.aar \
     -Dpackaging=aar \
-    -Dversion=${VERSION} \
+    -Dversion=${RELEASE_VERSION} \
     -DgroupId=com.github.shiguredo \
     -DartifactId=sora-webrtc-android
