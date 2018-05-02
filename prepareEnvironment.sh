@@ -17,4 +17,4 @@ mvn install:install-file \
     -Dpackaging=aar \
     -Dversion=${VERSION} \
     -DgroupId=com.github.shiguredo \
-    -DartifactId=libwebrtc-android
+    -DartifactId=sora-webrtc-android
