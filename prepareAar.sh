@@ -9,6 +9,10 @@ RELEASE_VERSION=${VERSION}
 
 AAR_URL=https://github.com/shiguredo/sora-webrtc-android/releases/download/${VERSION}/libwebrtc.aar
 
+echo VERSION=${VERSION}
+echo RELEASE_VERSION=${RELEASE_VERSION}
+echo AAR_URL=${AAR_URL}
+
 BUILD_DIR=build
 mkdir -p ${BUILD_DIR}
 cd ${BUILD_DIR}
