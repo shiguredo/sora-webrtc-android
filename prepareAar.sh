@@ -2,10 +2,10 @@
 
 set -e
 
-VERSION=67.28.0
+VERSION=68.10.0
 
 ## このリポジトリ的にメンテナンス番号をふるときは ${VERSION}.1 などとする
-RELEASE_VERSION=${VERSION}.1
+RELEASE_VERSION=${VERSION}
 
 AAR_URL=https://github.com/shiguredo/sora-webrtc-android/releases/download/${VERSION}/libwebrtc.aar
 
