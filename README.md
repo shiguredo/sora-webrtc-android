@@ -2,7 +2,7 @@
 
 このリポジトリは [WebRTC SFU Sora](https://sora.shiguredo.jp) Android SDK 向けにビルドした libwebrtc.aar ファイルを公開しています。
 
-利用方法の例は Sora Android SDK をご覧ください。
+利用方法の例は [Sora Android SDK のドキュメント](https://sora.shiguredo.jp/android-sdk-doc/) をご覧ください。
 
 ## jitpack.io での AAR の配布
 
@@ -20,6 +20,21 @@ build.gradle で、リポジトリ URL の追加、および依存関係を記�
 ```
 api "com.github.shiguredo:sora-webrtc-android:${libwebrtc_version}"
 ```
+
+## ライセンス
+
+このリポジトリにあるコードは Apatch License Version 2.0 でライセンスされます。
+
+libwebrtc (webrtc.org) のコードは webrtc.org のライセンス、
+パテントの指定に従います。このリポジトリのルート直下の `LICENSE_WEBRTC`,
+`PATENTS_WEBRTC` を参照して下さい。それらのオリジナルは次の URL にあります。
+
+- https://webrtc.googlesource.com/src/+/master/LICENSE
+- https://webrtc.googlesource.com/src/+/master/PATENTS
+
+releases, jitpack.io で配布する libwebrtc の AAR バイナリのライセンスは、
+releases にある `THIRD_PARTY_LICENSES.md` を参照して下さい。
+
 
 ## リリース方法 (開発者向け)
 
