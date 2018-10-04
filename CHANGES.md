@@ -9,6 +9,16 @@
 - FIX
     - バグ修正
 
+# 70.14.0
+
+```
+    "webrtc_branch": "70",
+    "webrtc_commit": "14",
+    "webrtc_revision": "7b027df46dc957dbc1a32b382c2903f9ebc8ad03",
+    "maint_version": "0",
+```
+
+
 # 69.7.0
 
 ```
