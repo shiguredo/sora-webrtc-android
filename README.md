@@ -48,5 +48,8 @@ releases にある `THIRD_PARTY_LICENSES.md` を参照して下さい。
      複数バージョンをつけたい場合はサフィックスを付ける
 5. `git flow release finish <RELEASE_VERSION>`
 6. `git push --tags master develop`
-7. AAR を releases の `<RELEASE_VERSION>` タグに上げる
+7. sora-webrtc-build でビルドしたファイルを releases の `<RELEASE_VERSION>` タグに上げる
+   - `sora-webrtc-<VERSION>-android.zip`
+   - この zip を展開した `android-releases/libwebrtc.aar`
+   - `THIRD_PARTY_LICENSES.md`
 8. shiguredo / sora-webrtc-android https://jitpack.io/#shiguredo/sora-webrtc-android/ を確認
