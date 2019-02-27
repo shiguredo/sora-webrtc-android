@@ -41,8 +41,10 @@ releases にある `THIRD_PARTY_LICENSES.md` を参照して下さい。
 1. AAR をビルドする
    - 詳細は https://github.com/shiguredo/sora-webrtc-build リポジトリを参照
 2. `git flow release start <RELEASE_VERSION>`
+   - sora-webrtc-build でビルドした ZIP ファイルには `mX.Y.Z` となっている
+   - このリポジトリのタグは maven 互換性のため `m` がない文字列とする
 3. `prepareAar.sh` の `VERSION` を変更する
-   - これは sora-webrtc-build でビルドした AAR のバージョン
+   - これは sora-webrtc-build でビルドした AAR のバージョンから m を外したもの
 4. `prepareAar.sh` の `RELEASE_VERSION` を変更する
    - 基本は `VERSION` と同じ、このリポジトリのメンテンナスにより同一 AAR に
      複数バージョンをつけたい場合はサフィックスを付ける
