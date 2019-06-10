@@ -9,6 +9,15 @@
 - FIX
     - バグ修正
 
+# 75.10.0
+
+```
+BRANCH=75
+COMMIT=16
+REVISION=159c16f3ceea1d02d08d51fc83d843019d773ec6
+MAINT=0
+```
+
 # 71.16.0
 
 ```
