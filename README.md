@@ -41,17 +41,13 @@ releases にある `THIRD_PARTY_LICENSES.md` を参照して下さい。
 1. AAR をビルドする
    - 詳細は https://github.com/shiguredo/sora-webrtc-build リポジトリを参照
 2. `git flow release start <RELEASE_VERSION>`
-   - sora-webrtc-build でビルドした ZIP ファイルには `mX.Y.Z` となっている
-   - このリポジトリのタグは maven 互換性のため `m` がない文字列とする
 3. `prepareAar.sh` の `VERSION` を変更する
-   - これは sora-webrtc-build でビルドした AAR のバージョンから m を外したもの
 4. `prepareAar.sh` の `RELEASE_VERSION` を変更する
    - 基本は `VERSION` と同じ、このリポジトリのメンテンナスにより同一 AAR に
      複数バージョンをつけたい場合はサフィックスを付ける
 5. `git flow release finish <RELEASE_VERSION>`
-6. `git push --tags master develop`
+6. `git push --tags origin master develop`
 7. sora-webrtc-build でビルドしたファイルを releases の `<RELEASE_VERSION>` タグに上げる
-   - `sora-webrtc-<VERSION>-android.zip`
-   - この zip を展開した `android-releases/libwebrtc.aar`
+   - `libwebrtc.aar`
    - `THIRD_PARTY_LICENSES.md`
 8. shiguredo / sora-webrtc-android https://jitpack.io/#shiguredo/sora-webrtc-android/ を確認
