@@ -1,3 +1,8 @@
+**ここは古いリポジトリです。**
+
+移行先は https://github.com/shiguredo/shiguredo-webrtc-android です。
+
+
 # WebRTC libraries for Android
 
 このリポジトリは [WebRTC SFU Sora](https://sora.shiguredo.jp) Android SDK 向けにビルドした libwebrtc.aar ファイルを公開しています。
